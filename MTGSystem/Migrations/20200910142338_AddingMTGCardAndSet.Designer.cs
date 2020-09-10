@@ -3,14 +3,16 @@ using System;
 using MTGSystem.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace MTGSystem.Migrations
 {
     [DbContext(typeof(MTGSystemContexto))]
-    partial class MTGSystemContextoModelSnapshot : ModelSnapshot
+    [Migration("20200910142338_AddingMTGCardAndSet")]
+    partial class AddingMTGCardAndSet
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
