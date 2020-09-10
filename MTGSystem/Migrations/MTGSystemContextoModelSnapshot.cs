@@ -17,7 +17,7 @@ namespace MTGSystem.Migrations
                 .HasAnnotation("ProductVersion", "2.1.14-servicing-32113")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("MTGSystem.Models.MTGColecao", b =>
+            modelBuilder.Entity("MTGSystem.Models.MTGSet", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -30,7 +30,7 @@ namespace MTGSystem.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("MTGColecao");
+                    b.ToTable("MTGSet");
                 });
 #pragma warning restore 612, 618
         }

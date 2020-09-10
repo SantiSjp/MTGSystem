@@ -11,7 +11,8 @@ namespace MTGSystem.Data
         {
         }
 
-        public DbSet<MTGColecao> MTGColecao { get; set; }
+        public DbSet<MTGSet> MTGSet { get; set; }
+        public DbSet<MTGCard> MTGCard { get; set; }
 
     }
 
