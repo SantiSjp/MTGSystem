@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGSystem", "MTGSystem\MTGSystem.csproj", "{D95B5F8F-E7B7-4D99-AFB4-48D5F0547648}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeiroProjetoMVC", "..\PrimeiroProjetoMVC\PrimeiroProjetoMVC\PrimeiroProjetoMVC.csproj", "{2301A101-C39E-41D2-80F8-28BAE5083685}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MTGSystemTests", "MTGSystemTests\MTGSystemTests.csproj", "{787CA3EF-0687-4E4D-A719-2A859ECCAC1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{D95B5F8F-E7B7-4D99-AFB4-48D5F0547648}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D95B5F8F-E7B7-4D99-AFB4-48D5F0547648}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D95B5F8F-E7B7-4D99-AFB4-48D5F0547648}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2301A101-C39E-41D2-80F8-28BAE5083685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2301A101-C39E-41D2-80F8-28BAE5083685}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2301A101-C39E-41D2-80F8-28BAE5083685}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2301A101-C39E-41D2-80F8-28BAE5083685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{787CA3EF-0687-4E4D-A719-2A859ECCAC1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{787CA3EF-0687-4E4D-A719-2A859ECCAC1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{787CA3EF-0687-4E4D-A719-2A859ECCAC1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{787CA3EF-0687-4E4D-A719-2A859ECCAC1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

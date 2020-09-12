@@ -10,13 +10,12 @@ namespace MTGSystem.Models
 
         MTGSet() {}
 
-        public MTGSet(int id, string name, DateTime launchDate, int setLenght, ICollection<MTGCard> mTGCards)
+        public MTGSet(int id, string name, DateTime launchDate, int setLenght)
         {
             Id = id;
             Name = name;
             LaunchDate = launchDate;
             SetLenght = setLenght;
-            MTGCards = mTGCards;
         }
 
         public int Id { get; set; }
