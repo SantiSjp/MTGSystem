@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vNEwE9gf6TUXu3luKec6gWYtfnxXJP72DknUKC9lOSnVCGniRPpyd0k0JAPCR08ItuFmMpeVZq7AcYL3hK+AkA==",
+  "dgSpecHash": "PWgT2hiSfmDg0TrLuc/o4+LC6o4u8EZlm/Og4THF0qvzJEaWhkxdgywakbeb7u9+mFqr/vX0wRD8sfYZOucQkw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Santi\\source\\repos\\MTGSystem\\MTGSystem\\MTGSystem.csproj",
   "expectedPackageFiles": [
@@ -176,6 +176,7 @@
     "C:\\Users\\Santi\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\2.1.1\\pomelo.entityframeworkcore.mysql.2.1.1.nupkg.sha512",
     "C:\\Users\\Santi\\.nuget\\packages\\pomelo.jsonobject\\1.1.1\\pomelo.jsonobject.1.1.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\remotion.linq\\2.2.0\\remotion.linq.2.2.0.nupkg.sha512",
+    "C:\\Users\\Santi\\.nuget\\packages\\restsharp\\106.11.4\\restsharp.106.11.4.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

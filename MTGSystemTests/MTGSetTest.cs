@@ -7,7 +7,7 @@ namespace MTGSystemTests
     public class MTGSetTest
     {
         [Fact]
-        public void Test1()
+        public void TestSet()
         {
             //Arrange
             int id = 1;
