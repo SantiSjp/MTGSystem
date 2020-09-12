@@ -8,20 +8,29 @@ namespace MTGSystem.Models
 
         MTGCard() {}
 
-        public MTGCard(int id, string name, byte[] cardImage, TypeColor color, string manaCost, 
-            TypeRarity rarity, string cardType, string cardSubtype, string ability, string flavorText, 
+        public MTGCard(int id, string name, bool isBlack, bool isBlue, bool isGreen, bool isRed, bool isWhite,
+            bool isColorless, string manaCost, string cmc, TypeRarity rarity, string mainType, string secondaryType, 
+            string cardSubtype, string keywords, string activateAbility, string triggerAbility, string staticAbility, 
             int power, int toughness, int collectionNumber, MTGSet mTGSet)
         {
             Id = id;
             Name = name;
-            CardImage = cardImage;
-            Color = color;
+            IsBlack = isBlack;
+            IsBlue = isBlue;
+            IsGreen = isGreen;
+            IsRed = isRed;
+            IsWhite = isWhite;
+            IsColorless = isColorless;
             ManaCost = manaCost;
+            Cmc = cmc;
             Rarity = rarity;
-            CardType = cardType;
+            MainType = mainType;
+            SecondaryType = secondaryType;
             CardSubtype = cardSubtype;
-            Ability = ability;
-            FlavorText = flavorText;
+            Keywords = keywords;
+            ActivateAbility = activateAbility;
+            TriggerAbility = triggerAbility;
+            StaticAbility = staticAbility;
             Power = power;
             Toughness = toughness;
             CollectionNumber = collectionNumber;
@@ -30,18 +39,27 @@ namespace MTGSystem.Models
 
         public int Id { get; set; }
         public string Name { get; set; }
-        public byte[] CardImage { get; set; }
-        public TypeColor Color { get; set; }
+        public bool IsBlack { get; set; }
+        public bool IsBlue { get; set; }
+        public bool IsGreen { get; set; }
+        public bool IsRed { get; set; }
+        public bool IsWhite { get; set; }
+        public bool IsColorless { get; set; }
         public string ManaCost { get; set; }
+        public string Cmc { get; set; }
         public TypeRarity Rarity { get; set; }
-        public string CardType { get; set; }
+        public string MainType { get; set; }
+        public string SecondaryType { get; set; }
         public string CardSubtype { get; set; }
-        public string Ability { get; set; }
-        public string FlavorText { get; set; }
+        public string Keywords { get; set; }
+        public string ActivateAbility { get; set; }
+        public string TriggerAbility { get; set; }
+        public string StaticAbility { get; set; }
         public int Power { get; set; }
         public int Toughness { get; set; }
         public int CollectionNumber { get; set; }
         public MTGSet MTGSet { get; set; }
 
     }
+
 }
