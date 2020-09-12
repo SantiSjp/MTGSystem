@@ -1,0 +1,32 @@
+image: microsoft/dotnet:latest
+
+stages:
+    - build
+    - test
+    - release
+
+before_script:
+  - 'dotnet restore'
+
+build:
+    stage: build
+    script:
+        - "dotnet build"
+
+test:
+    stage: test
+    script: 
+        - "dotnet test"
+        - echo "testing"
+
+release:
+  stage: release
+
+#  only:
+#    - master
+
+  artifacts:
+    paths:
+      - publish/
+  script:
+    - dotnet publish -c Release -o ../publish MTGSystem/MTGSystem.csproj
