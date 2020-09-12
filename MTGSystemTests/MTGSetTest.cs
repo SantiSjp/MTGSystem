@@ -12,7 +12,7 @@ namespace MTGSystemTests
             //Arrange
             int id = 1;
             string name = "Theros";
-            DateTime lauchdate = new DateTime(2020, 04, 10);
+            string lauchdate = "2020-10-04";
             int setlenght = 358;
 
             //Act

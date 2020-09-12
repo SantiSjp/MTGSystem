@@ -10,7 +10,7 @@ namespace MTGSystem.Models
 
         MTGSet() {}
 
-        public MTGSet(int id, string name, DateTime launchDate, int setLenght)
+        public MTGSet(int id, string name, string launchDate, int setLenght)
         {
             Id = id;
             Name = name;
@@ -20,7 +20,7 @@ namespace MTGSystem.Models
 
         public int Id { get; set; }
         public string Name { get; set; }
-        public DateTime LaunchDate { get; set; }
+        public string LaunchDate { get; set; }
         public int SetLenght { get; set; }
         public ICollection<MTGCard> MTGCards { get; set; }
 
