@@ -12,7 +12,6 @@ C:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\MTGSyste
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\bin\Debug\netcoreapp2.1\MTGSystem.pdb
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\bin\Debug\netcoreapp2.1\MTGSystem.Views.dll
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\bin\Debug\netcoreapp2.1\MTGSystem.Views.pdb
-C:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\MTGSystem.csproj.CoreCompileInputs.cache
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\MTGSystem.RazorAssemblyInfo.cache
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\MTGSystem.RazorAssemblyInfo.cs
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\MTGSystem.TagHelpers.input.cache
@@ -34,3 +33,4 @@ C:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\MTGSyste
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\MTGSystem.dll
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\MTGSystem.pdb
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\MTGSystem.csproj.CopyComplete
+C:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\MTGSystem.csproj.CoreCompileInputs.cache

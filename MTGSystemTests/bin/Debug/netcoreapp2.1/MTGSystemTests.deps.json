@@ -588,6 +588,14 @@
           }
         }
       },
+      "RestSharp/106.11.4": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.11.4.0",
+            "fileVersion": "106.11.4.0"
+          }
+        }
+      },
       "System.Collections/4.0.11": {
         "dependencies": {
           "System.Runtime": "4.1.0"
@@ -933,7 +941,8 @@
       },
       "MTGSystem/1.0.0": {
         "dependencies": {
-          "Pomelo.EntityFrameworkCore.MySql": "2.1.1"
+          "Pomelo.EntityFrameworkCore.MySql": "2.1.1",
+          "RestSharp": "106.11.4"
         },
         "runtime": {
           "MTGSystem.dll": {}
@@ -1163,6 +1172,13 @@
       "sha512": "sha512-fK/76UmpC0FXBlGDFVPLJHQlDLYnGC+XY3eoDgCgbtrhi0vzbXDQ3n/IYHhqSKqXQfGw/u04A1drWs7rFVkRjw==",
       "path": "remotion.linq/2.2.0",
       "hashPath": "remotion.linq.2.2.0.nupkg.sha512"
+    },
+    "RestSharp/106.11.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vx35q52cM3UQNOiN3UqSQ9U7I5UeoyzVmjsWKQxOxn6FVu+n01+SNwhxc/jvf92WPBmmwzTV4VYTeTg4KviJdA==",
+      "path": "restsharp/106.11.4",
+      "hashPath": "restsharp.106.11.4.nupkg.sha512"
     },
     "System.Collections/4.0.11": {
       "type": "package",
