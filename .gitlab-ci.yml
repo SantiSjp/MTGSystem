@@ -21,8 +21,8 @@ test:
 
 release:
   stage: release
-  only:
-    - master
+#  only:
+#    - master
   artifacts:
     paths:
       - publish/
