@@ -1,0 +1,12 @@
+C:\Users\Santi\source\repos\MTGSystem\APITest\bin\Debug\netcoreapp2.1\APITest.deps.json
+C:\Users\Santi\source\repos\MTGSystem\APITest\bin\Debug\netcoreapp2.1\APITest.runtimeconfig.json
+C:\Users\Santi\source\repos\MTGSystem\APITest\bin\Debug\netcoreapp2.1\APITest.runtimeconfig.dev.json
+C:\Users\Santi\source\repos\MTGSystem\APITest\bin\Debug\netcoreapp2.1\APITest.dll
+C:\Users\Santi\source\repos\MTGSystem\APITest\obj\Debug\netcoreapp2.1\APITest.csprojAssemblyReference.cache
+C:\Users\Santi\source\repos\MTGSystem\APITest\obj\Debug\netcoreapp2.1\APITest.AssemblyInfoInputs.cache
+C:\Users\Santi\source\repos\MTGSystem\APITest\obj\Debug\netcoreapp2.1\APITest.AssemblyInfo.cs
+C:\Users\Santi\source\repos\MTGSystem\APITest\obj\Debug\netcoreapp2.1\APITest.genruntimeconfig.cache
+C:\Users\Santi\source\repos\MTGSystem\APITest\bin\Debug\netcoreapp2.1\APITest.pdb
+C:\Users\Santi\source\repos\MTGSystem\APITest\obj\Debug\netcoreapp2.1\APITest.dll
+C:\Users\Santi\source\repos\MTGSystem\APITest\obj\Debug\netcoreapp2.1\APITest.pdb
+C:\Users\Santi\source\repos\MTGSystem\APITest\obj\Debug\netcoreapp2.1\APITest.csproj.CoreCompileInputs.cache

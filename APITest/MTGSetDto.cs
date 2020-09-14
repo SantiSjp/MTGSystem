@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Text;
 
-namespace MTGSystem.Dto
+namespace APITest
 {
     public class MTGSetDto
     {
+
         MTGSetDto() { }
 
-        public MTGSetDto(string id, string code, string mtgo_code, string arena_code, int tcgplayer_id, 
-            string name, string uri, string scryfall_uri, string search_uri, string released_at, 
+        public MTGSetDto(string id, string code, string mtgo_code, string arena_code, int tcgplayer_id,
+            string name, string uri, string scryfall_uri, string search_uri, string released_at,
             string set_type, int card_count, bool digital, bool nonfoil_only, string icon_svg_uri)
         {
             Id = id;
@@ -45,5 +45,6 @@ namespace MTGSystem.Dto
         public bool Digital { get; set; }
         public bool Nonfoil_only { get; set; }
         public string Icon_svg_uri { get; set; }
+
     }
 }

@@ -23,18 +23,23 @@ namespace MTGSystem.Services
                 return; // Banco de dados ja foi Populado
             }
 
-            MTGSetRepository mtgsetrepository = new MTGSetRepository();
-            string set = "tbd";
+            var sets = new MTGSetRepository();
+            int i = 0;
+            var data = sets.BuscarSet();
 
-            var result = mtgsetrepository.BuscarSet(set);
-
-            MTGSet M1 = new MTGSet(1, result.Name,result.Released_at, result.Card_count);
-
+            foreach (var item in data)
+            {
+                MTGSet M = new MTGSet(i, item.name, item.released_at, item.card_count);
+                _contexto.Add(M);
+                _contexto.SaveChanges();
+            }
+               
+                       
             //MTGSet M1 = new MTGSet(1, "Theros Além da Morte", new DateTime(2020, 01, 24), 358);
 
-            _contexto.MTGSet.Add(M1);
+            //_contexto.MTGSet.Add(M1);
 
-            _contexto.SaveChanges();
+            //_contexto.SaveChanges();
         }
     }
 }

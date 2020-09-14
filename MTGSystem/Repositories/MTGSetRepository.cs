@@ -8,25 +8,26 @@ namespace MTGSystem.Repositories
     public class MTGSetRepository
     {
 
-        public MTGSetDto BuscarSet(string set)
+        public Datum[] BuscarSet()
         {
             var rota = "https://api.scryfall.com/";
-            var rest = $"sets/{set}";
+            //var rest = $"sets/{set}";
+            var rest = "sets";
             var resultado = ApiConsume.Get(rota, rest).Result;
 
             try
             {
-                var sets = JsonConvert.DeserializeObject<MTGSetDto>(resultado);
+                var sets = JsonConvert.DeserializeObject<Rootobject>(resultado);
 
-                Console.WriteLine(sets);
+                //Console.WriteLine(sets);
 
-                return sets;
+                return sets.data;
 
 
             }
             catch (System.Exception e)
             {
-                Console.WriteLine(e.ToString());
+                //Console.WriteLine(e.ToString());
                 return null;
             }
 
