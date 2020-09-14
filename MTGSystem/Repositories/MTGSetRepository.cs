@@ -8,7 +8,7 @@ namespace MTGSystem.Repositories
     public class MTGSetRepository
     {
 
-        public dynamic BuscarSet()
+        public Datum[] BuscarSet()
         {
             var rota = "https://api.scryfall.com/";
             //var rest = $"sets/{set}";
@@ -17,7 +17,7 @@ namespace MTGSystem.Repositories
 
             try
             {
-                dynamic sets = JsonConvert.DeserializeObject(resultado);
+                var sets = JsonConvert.DeserializeObject<Rootobject>(resultado);
 
                 //Console.WriteLine(sets);
 
