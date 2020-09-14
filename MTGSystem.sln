@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGSystem", "MTGSystem\MTGS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTGSystemTests", "MTGSystemTests\MTGSystemTests.csproj", "{787CA3EF-0687-4E4D-A719-2A859ECCAC1A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APITest", "APITest\APITest.csproj", "{6C69C31A-FA71-4BE5-AA03-DEF3FC1DB5AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{787CA3EF-0687-4E4D-A719-2A859ECCAC1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{787CA3EF-0687-4E4D-A719-2A859ECCAC1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{787CA3EF-0687-4E4D-A719-2A859ECCAC1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C69C31A-FA71-4BE5-AA03-DEF3FC1DB5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C69C31A-FA71-4BE5-AA03-DEF3FC1DB5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C69C31A-FA71-4BE5-AA03-DEF3FC1DB5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C69C31A-FA71-4BE5-AA03-DEF3FC1DB5AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
