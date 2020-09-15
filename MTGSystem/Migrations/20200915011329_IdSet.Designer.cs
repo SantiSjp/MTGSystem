@@ -3,14 +3,16 @@ using System;
 using MTGSystem.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace MTGSystem.Migrations
 {
     [DbContext(typeof(MTGSystemContexto))]
-    partial class MTGSystemContextoModelSnapshot : ModelSnapshot
+    [Migration("20200915011329_IdSet")]
+    partial class IdSet
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -78,7 +80,7 @@ namespace MTGSystem.Migrations
 
                     b.Property<string>("IdSet");
 
-                    b.Property<DateTime>("LaunchDate");
+                    b.Property<string>("LaunchDate");
 
                     b.Property<string>("Name");
 

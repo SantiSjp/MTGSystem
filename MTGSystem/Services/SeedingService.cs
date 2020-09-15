@@ -29,17 +29,17 @@ namespace MTGSystem.Services
 
             foreach (var item in data)
             {
-                MTGSet M = new MTGSet(i, item.name, item.released_at, item.card_count);
+                var aux = item.released_at.Split('-');
+                var year = int.Parse(aux[0]);
+                var month = int.Parse(aux[1]);
+                var day = int.Parse(aux[2]);
+
+                MTGSet M = new MTGSet(i, item.id, item.name, new DateTime(year,month,day), item.card_count);
                 _contexto.Add(M);
                 _contexto.SaveChanges();
             }
-               
-                       
-            //MTGSet M1 = new MTGSet(1, "Theros Além da Morte", new DateTime(2020, 01, 24), 358);
-
-            //_contexto.MTGSet.Add(M1);
-
-            //_contexto.SaveChanges();
+                                     
+            
         }
     }
 }
