@@ -17,7 +17,7 @@ namespace MTGSystem.Repositories
 
             try
             {
-                var sets = JsonConvert.DeserializeObject<Rootobject>(resultado);
+                var sets = JsonConvert.DeserializeObject<MTGSetDTO>(resultado);
 
                 //Console.WriteLine(sets);
 
@@ -27,7 +27,7 @@ namespace MTGSystem.Repositories
             }
             catch (System.Exception e)
             {
-                //Console.WriteLine(e.ToString());
+                Console.WriteLine(e.ToString());
                 return null;
             }
 

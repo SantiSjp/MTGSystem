@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace MTGSystem.Dto
 {
-    public class Rootobject
+    public class MTGSetDTO
     {
         public string _object { get; set; }
         public bool has_more { get; set; }
