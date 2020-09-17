@@ -9,18 +9,18 @@ namespace MTGSystemTests
         [Fact]
         public void TestCard()
         {
-            
+            /*
              
             // Arrange
             var mtgapi = new MTGSetRepository();
 
             // Act
-            mtgapi.BuscarSet();
+            var list = mtgapi.BuscarSet();
 
             //Assert
-            //Assert.NotEmpty(list);
-          
-             
+            Assert.NotEmpty(list);
+            
+             */
 
             Assert.Equal(1, 1);
 
