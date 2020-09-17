@@ -30,3 +30,4 @@ namespace MTGSystem.Dto
         public string icon_svg_uri { get; set; }
     }
 }
+

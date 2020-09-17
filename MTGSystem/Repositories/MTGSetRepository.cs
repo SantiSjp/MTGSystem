@@ -22,7 +22,7 @@ namespace MTGSystem.Repositories
                 //Console.WriteLine(sets);
 
                 return sets.data;
-
+                
 
             }
             catch (System.Exception e)

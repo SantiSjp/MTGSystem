@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PWgT2hiSfmDg0TrLuc/o4+LC6o4u8EZlm/Og4THF0qvzJEaWhkxdgywakbeb7u9+mFqr/vX0wRD8sfYZOucQkw==",
+  "dgSpecHash": "bTY/sYt/6uJoXCY47kO/P57A4hQgqW6fS/Ddf0bQotrpuOwr+EsUTPuCR1OhDWm5oHyoCEjpPMj6pYFGlE5arw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Santi\\source\\repos\\MTGSystem\\MTGSystem\\MTGSystem.csproj",
   "expectedPackageFiles": [
@@ -171,7 +171,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\Santi\\.nuget\\packages\\mysqlconnector\\0.42.1\\mysqlconnector.0.42.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\Santi\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
     "C:\\Users\\Santi\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\2.1.1\\pomelo.entityframeworkcore.mysql.2.1.1.nupkg.sha512",
     "C:\\Users\\Santi\\.nuget\\packages\\pomelo.jsonobject\\1.1.1\\pomelo.jsonobject.1.1.1.nupkg.sha512",

@@ -1,0 +1,12 @@
+u
+jC:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.csutf-8w
+lC:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.csutf-8u
+jC:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.csutf-8w
+lC:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.csutf-8w
+lC:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.csutf-8‡
+|C:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.csutf-8y
+nC:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.csutf-8Œ
+€C:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.csutf-8w
+lC:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.csutf-8u
+jC:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.csutf-8w
+lC:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\MTGSystem.RazorTargetAssemblyInfo.csutf-8

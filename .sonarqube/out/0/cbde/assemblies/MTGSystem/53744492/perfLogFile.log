@@ -1,0 +1,14 @@
+File name	Line	Function	Duration[ms]	Explored nodes
+C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Migrations\20200909234905_primeiraMigration.cs	26	_MTGSystem.Migrations.primeiraMigration.Down$Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder$	0	3
+C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Migrations\20200910142338_AddingMTGCardAndSet.cs	62	_MTGSystem.Migrations.AddingMTGCardAndSet.Down$Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder$	0	3
+C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Migrations\20200912224907_UsingApiMtg.cs	7	_MTGSystem.Migrations.UsingApiMtg.Up$Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder$	0	3
+C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Migrations\20200912224907_UsingApiMtg.cs	95	_MTGSystem.Migrations.UsingApiMtg.Down$Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder$	0	3
+C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Migrations\20200915011329_IdSet.cs	6	_MTGSystem.Migrations.IdSet.Up$Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder$	0	3
+C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Migrations\20200915011329_IdSet.cs	14	_MTGSystem.Migrations.IdSet.Down$Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder$	0	3
+C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Migrations\20200915012009_Create_datetime_field.cs	7	_MTGSystem.Migrations.Create_datetime_field.Up$Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder$	0	3
+C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Migrations\20200915012009_Create_datetime_field.cs	17	_MTGSystem.Migrations.Create_datetime_field.Down$Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder$	0	3
+C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Controllers\HomeController.cs	12	_MTGSystem.Controllers.HomeController.Index$$	0	2
+C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Controllers\HomeController.cs	17	_MTGSystem.Controllers.HomeController.About$$	0	2
+C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Controllers\HomeController.cs	24	_MTGSystem.Controllers.HomeController.Contact$$	0	2
+C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Controllers\HomeController.cs	31	_MTGSystem.Controllers.HomeController.Privacy$$	0	2
+C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Program.cs	14	_MTGSystem.Program.Main$string$$$	0	3
