@@ -26,6 +26,7 @@ namespace MTGSystemTests
             Assert.Equal(300, mtgcard.MTGSet.SetLenght);
             Assert.Equal(1, mtgcard.Id);
             Assert.Equal(TypeRarity.Uncommon, mtgcard.Rarity);
+            
         }
 
     }

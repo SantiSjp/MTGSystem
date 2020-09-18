@@ -24,10 +24,12 @@ namespace MTGSystem.Services
             }
 
             var sets = new MTGSetRepository();
+            var cards = new MTGCardRepository();
             int i = 0;
-            var data = sets.BuscarSet();
+            var dataSet  = sets.BuscarSet();
+            var dataCard = cards.BuscarCard();
 
-            foreach (var item in data)
+            foreach (var item in dataSet)
             {
                 var aux = item.released_at.Split('-');
                 var year = int.Parse(aux[0]);
@@ -37,6 +39,11 @@ namespace MTGSystem.Services
                 MTGSet M = new MTGSet(i, item.id, item.name, new DateTime(year,month,day), item.card_count);
                 _contexto.Add(M);
                 _contexto.SaveChanges();
+            }
+
+            foreach (var item in dataCard)
+            {
+                // Criar rotina de guardar cards em banco
             }
                                      
             
