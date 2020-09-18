@@ -1,12 +1,10 @@
 ﻿using System;
 using RestSharp;
 using System.Threading.Tasks;
-using RestSharp.Authenticators;
-using System.Collections.Generic;
 
 namespace MTGSystem.Services
 {
-    public class ApiConsume
+    public static class ApiConsume
     {
         private static readonly RestClient restClient = new RestClient();
 

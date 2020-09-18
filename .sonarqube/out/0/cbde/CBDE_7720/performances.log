@@ -1,13 +1,13 @@
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Controllers\HomeController.cs
-Index 64
+Index 4
 Index -1
-About 5
+About 3
 About -1
-Contact 3
+Contact 4
 Contact -1
 Privacy 3
 Privacy -1
-Error 6
+Error 40
 Error -1
 
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Data\MTGSystemContexto.cs
@@ -17,9 +17,9 @@ C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Dto\MTGCardDTO.cs
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Dto\MTGSetDTO.cs
 
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Migrations\20200909234905_primeiraMigration.cs
-Up 4
+Up 3
 Up -1
-Down 7
+Down 3
 Down -1
 
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Migrations\20200909234905_primeiraMigration.Designer.cs
@@ -39,17 +39,17 @@ BuildTargetModel -1
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Migrations\20200910142338_AddingMTGCardAndSet.cs
 Up 3
 Up -1
-Down 7
+Down 4
 Down -1
 
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Migrations\20200910142338_AddingMTGCardAndSet.Designer.cs
-BuildTargetModel 4
+BuildTargetModel 3
 BuildTargetModel -1
 
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Migrations\20200912224907_UsingApiMtg.cs
-Up 16
+Up 10
 Up -1
-Down 16
+Down 9
 Down -1
 
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Migrations\20200912224907_UsingApiMtg.Designer.cs
@@ -59,7 +59,7 @@ BuildTargetModel -1
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Migrations\20200915011329_IdSet.cs
 Up 3
 Up -1
-Down 3
+Down 4
 Down -1
 
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Migrations\20200915011329_IdSet.Designer.cs
@@ -69,15 +69,15 @@ BuildTargetModel -1
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Migrations\20200915012009_Create_datetime_field.cs
 Up 4
 Up -1
-Down 3
+Down 4
 Down -1
 
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Migrations\20200915012009_Create_datetime_field.Designer.cs
-BuildTargetModel 4
+BuildTargetModel 3
 BuildTargetModel -1
 
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Migrations\MTGSystemContextoModelSnapshot.cs
-BuildModel 4
+BuildModel 3
 BuildModel -1
 
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Models\Enums\TypeRarity.cs
@@ -89,17 +89,21 @@ C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Models\MTGSet.cs
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Models\ViewModels\ErrorViewModel.cs
 
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Program.cs
-Main 6
+Main 3
 Main -1
-CreateWebHostBuilder 3
+CreateWebHostBuilder 2
 CreateWebHostBuilder -1
 
+C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Repositories\MTGCardRepository.cs
+BuscarCard 5
+BuscarCard -1
+
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Repositories\MTGSetRepository.cs
-BuscarSet 2
+BuscarSet 3
 BuscarSet -1
 
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Services\ApiConsume.cs
-Get 3
+Get 2
 Get -1
 
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Services\SeedingService.cs
@@ -107,7 +111,7 @@ Seed 3
 Seed -1
 
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Startup.cs
-ConfigureServices 4
+ConfigureServices 2
 ConfigureServices -1
 Configure 3
 Configure -1
@@ -135,11 +139,11 @@ ExecuteAsync 2
 ExecuteAsync -1
 
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
-ExecuteAsync 2
+ExecuteAsync 3
 ExecuteAsync -1
 
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
-ExecuteAsync 2
+ExecuteAsync 5
 ExecuteAsync -1
 
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -147,15 +151,15 @@ ExecuteAsync 2
 ExecuteAsync -1
 
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-ExecuteAsync 2
+ExecuteAsync 3
 ExecuteAsync -1
 
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
-ExecuteAsync 9
+ExecuteAsync 2
 ExecuteAsync -1
 
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
-ExecuteAsync 3
+ExecuteAsync 2
 ExecuteAsync -1
 
 C:\Users\Santi\source\repos\MTGSystem\MTGSystem\obj\Debug\netcoreapp2.1\MTGSystem.RazorTargetAssemblyInfo.cs

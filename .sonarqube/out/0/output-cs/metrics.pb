@@ -2,11 +2,10 @@
 MC:\Users\Santi\source\repos\MTGSystem\MTGSystem\Controllers\HomeController.cs 8r$	
  !"#%&'()*+Ç"(a
 IC:\Users\Santi\source\repos\MTGSystem\MTGSystem\Data\MTGSystemContexto.cs 8r	
-≈
-AC:\Users\Santi\source\repos\MTGSystem\MTGSystem\Dto\MTGCardDTO.cs ∂8∂rx	
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLNOPQRSTUVXYZ[\]^_`abcdefgijklmnoqrstuvwyz{|}~Åh
-@C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Dto\MTGSetDTO.cs "8"r	
- ñ
+¿
+AC:\Users\Santi\source\repos\MTGSystem\MTGSystem\Dto\MTGCardDTO.cs ∂8∂rs	
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGIJKLMNOPQSTUVWXYZ[\]^_`abdefghijlmnopqrtuvwxy|d
+@C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Dto\MTGSetDTO.cs "8"r	ñ
 ^C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Migrations\20200909234905_primeiraMigration.cs 8r	
  !Ç
 ≠
@@ -24,15 +23,16 @@ bC:\Users\Santi\source\repos\MTGSystem\MTGSystem\Migrations\20200915012009_Creat
 ]
 JC:\Users\Santi\source\repos\MTGSystem\MTGSystem\Models\Enums\TypeRarity.csr	
 °
-AC:\Users\Santi\source\repos\MTGSystem\MTGSystem\Models\MTGCard.cs .8.r;	 !"#$%&()*+,-./0123456789:;<=?AÇ !"#$%m
+AC:\Users\Santi\source\repos\MTGSystem\MTGSystem\Models\MTGCard.cs .8.r;	 !"#$%&()*+,-./0123456789:;<=?GÇ !"#$%m
 @C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Models\MTGSet.cs 8r	#Çj
 SC:\Users\Santi\source\repos\MTGSystem\MTGSystem\Models\ViewModels\ErrorViewModel.cs 8r		
-Ç	a
-:C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Program.cs 8r	ÇÑ
-PC:\Users\Santi\source\repos\MTGSystem\MTGSystem\Repositories\MTGSetRepository.cs 8jr	 #$%xÇl
-FC:\Users\Santi\source\repos\MTGSystem\MTGSystem\Services\ApiConsume.cs 8r	
-Çé
-JC:\Users\Santi\source\repos\MTGSystem\MTGSystem\Services\SeedingService.cs 8jr$	
- !"#%&'(+,-xÇ !"#%&'ü
-:C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Startup.cs 8j /r<	
-!"#&()*,-0123456789:;=>?ABCDEFGHIxÇ!"&()*,2459:=>?AC
+Ç	Z
+:C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Program.cs 8r	
+ÇÑ
+QC:\Users\Santi\source\repos\MTGSystem\MTGSystem\Repositories\MTGCardRepository.cs 8jr	!#$xÇÑ
+PC:\Users\Santi\source\repos\MTGSystem\MTGSystem\Repositories\MTGSetRepository.cs 8jr	
+"#$xÇj
+FC:\Users\Santi\source\repos\MTGSystem\MTGSystem\Services\ApiConsume.cs 8r	Çñ
+JC:\Users\Santi\source\repos\MTGSystem\MTGSystem\Services\SeedingService.cs 8j.r)	
+ !"#$%'()*,-/234xÇ "#$%'(),ö
+:C:\Users\Santi\source\repos\MTGSystem\MTGSystem\Startup.cs 8j*r7	!#$%'(+,-./012345689:<=>?@ABCDxÇ!#$%'-/04589:<>
