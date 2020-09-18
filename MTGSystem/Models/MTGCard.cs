@@ -62,4 +62,10 @@ namespace MTGSystem.Models
 
     }
 
+
+
+
+
+
+
 }
