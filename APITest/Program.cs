@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace APITest
 {
@@ -9,16 +8,16 @@ namespace APITest
         {
             try
             {
-                var obj = new MTGSetRepository();
+                var obj = new MTGCardRepository();
 
-                obj.BuscarSet("tbd");
+                var result = obj.BuscarCard();
 
-                //Console.WriteLine(res);
+                Console.WriteLine(result);
 
-               /* foreach (var item in res)
+                foreach (var item in result)
                 {                    
-                    Console.WriteLine(item.name);
-                }*/
+                    Console.WriteLine(item.Name);
+                }
             }
             catch (System.Exception e)
             {

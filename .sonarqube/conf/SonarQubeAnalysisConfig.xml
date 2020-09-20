@@ -20,13 +20,16 @@
     <Property Name="email.fromName">SonarQube</Property>
     <Property Name="sonar.python.xunit.skipDetails">false</Property>
     <Property Name="sonar.go.exclusions">**/vendor/**</Property>
+    <Property Name="sonar.cxx.vc.charset">UTF-8</Property>
     <Property Name="sonar.forceAuthentication">false</Property>
     <Property Name="sonar.notifications.delay">60</Property>
     <Property Name="sonaranalyzer-cs.ruleNamespace">SonarAnalyzer.CSharp</Property>
     <Property Name="sonar.cs.analyzeGeneratedCode">false</Property>
+    <Property Name="sonar.cxx.cpd.ignoreLiterals">false</Property>
     <Property Name="sonar.builtInQualityProfiles.disableNotificationOnUpdate">false</Property>
     <Property Name="sonar.css.file.suffixes">.css,.less,.scss</Property>
     <Property Name="sonar.organizations.createPersonalOrg">false</Property>
+    <Property Name="sonar.cxx.funccomplexity.threshold">10</Property>
     <Property Name="sonar.html.file.suffixes">.html,.xhtml,.cshtml,.vbhtml,.aspx,.ascx,.rhtml,.erb,.shtm,.shtml</Property>
     <Property Name="sonar.auth.gitlab.enabled">false</Property>
     <Property Name="sonar.cpd.cross_project">false</Property>
@@ -46,7 +49,9 @@
     <Property Name="sonar.vbnet.file.suffixes">.vb</Property>
     <Property Name="sonar.technicalDebt.developmentCost">30</Property>
     <Property Name="sonar.python.file.suffixes">py</Property>
+    <Property Name="sonar.cxx.cFilesPatterns">*.c,*.C</Property>
     <Property Name="sonar.cs.file.suffixes">.cs</Property>
+    <Property Name="sonar.cxx.errorRecoveryEnabled">true</Property>
     <Property Name="sonaranalyzer-vbnet.staticResourceName">SonarAnalyzer-8.9.0.19135.zip</Property>
     <Property Name="sonar.java.file.suffixes">.java,.jav</Property>
     <Property Name="sonar.kotlin.file.suffixes">.kt</Property>
@@ -61,6 +66,7 @@
     <Property Name="sonar.auth.saml.applicationId">sonarqube</Property>
     <Property Name="sonar.dbcleaner.weeksBeforeKeepingOnlyAnalysesWithVersion">104</Property>
     <Property Name="sonar.php.exclusions">**/vendor/**</Property>
+    <Property Name="sonar.cxx.gcc.charset">UTF-8</Property>
     <Property Name="sonar.vbnet.roslyn.ignoreIssues">false</Property>
     <Property Name="sonar.flex.file.suffixes">as</Property>
     <Property Name="sonar.auth.gitlab.groupsSync">false</Property>
@@ -76,16 +82,21 @@
     <Property Name="email.from">noreply@nowhere</Property>
     <Property Name="sonaranalyzer-vbnet.pluginVersion">8.9.0.19135</Property>
     <Property Name="sonar.internal.analysis.failFast">false</Property>
+    <Property Name="sonar.cxx.funcsize.threshold">20</Property>
     <Property Name="sonar.dbcleaner.weeksBeforeKeepingOnlyOneSnapshotByWeek">4</Property>
+    <Property Name="sonar.cxx.msbuild.charset">UTF-8</Property>
     <Property Name="sonaranalyzer-vbnet.analyzerId">SonarAnalyzer.VisualBasic</Property>
     <Property Name="email.prefix">[SONARQUBE]</Property>
     <Property Name="sonar.cs.roslyn.ignoreIssues">false</Property>
     <Property Name="sonaranalyzer-cs.pluginKey">csharp</Property>
+    <Property Name="sonar.cxx.suffixes.headers">.hxx,.hpp,.hh,.h</Property>
     <Property Name="sonar.auth.saml.providerName">SAML</Property>
+    <Property Name="sonar.cxx.cpd.ignoreIdentifiers">false</Property>
     <Property Name="sonar.ruby.coverage.reportPaths">coverage/.resultset.json</Property>
     <Property Name="sonaranalyzer-cs.staticResourceName">SonarAnalyzer-8.9.0.19135.zip</Property>
     <Property Name="sonar.auth.gitlab.allowUsersToSignUp">true</Property>
     <Property Name="sonaranalyzer-cs.nuget.packageId">SonarAnalyzer.CSharp</Property>
+    <Property Name="sonar.cxx.suffixes.sources">.cxx,.cpp,.cc,.c</Property>
     <Property Name="sonar.authenticator.downcase">false</Property>
     <Property Name="sonaranalyzer-cs.analyzerId">SonarAnalyzer.CSharp</Property>
     <Property Name="sonar.organizations.anyoneCanCreate">false</Property>
@@ -94,11 +105,12 @@
     <Property Name="sonaranalyzer-cs.pluginVersion">8.9.0.19135</Property>
     <Property Name="sonar.javascript.file.suffixes">.js,.jsx,.vue</Property>
     <Property Name="sonar.vbnet.analyzeGeneratedCode">false</Property>
+    <Property Name="sonar.cxx.clangtidy.charset">UTF-8</Property>
     <Property Name="sonar.auth.gitlab.url">https://gitlab.com</Property>
     <Property Name="sonaranalyzer-vbnet.pluginKey">vbnet</Property>
     <Property Name="sonar.updatecenter.url">https://update.sonarsource.org/update-center.properties</Property>
-    <Property Name="sonar.core.startTime">16/09/2020 16:09:02</Property>
     <Property Name="sonar.core.id">BF41A1F2-AXSYUgGb2J3jYJhICX1t</Property>
+    <Property Name="sonar.core.startTime">18/09/2020 02:34:07</Property>
   </ServerSettings>
   <LocalSettings>
     <Property Name="sonar.host.url">http://localhost:9000</Property>

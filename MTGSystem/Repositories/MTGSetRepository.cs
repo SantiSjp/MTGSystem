@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using MTGSystem.Services;
 using MTGSystem.Dto;
+using System.Linq;
 
 namespace MTGSystem.Repositories
 {
@@ -18,8 +19,6 @@ namespace MTGSystem.Repositories
             try
             {
                 var sets = JsonConvert.DeserializeObject<MTGSetDTO>(resultado);
-
-                //Console.WriteLine(sets);
 
                 return sets.data;
                 

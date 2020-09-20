@@ -1,9 +1,11 @@
-]
+§
 CC:\Users\Santi\source\repos\MTGSystem\MTGSystemTests\MTGCardTest.cs
 
- 
+ 
 
- º
+ 
+ U X2
+  # % #. 5º
 BC:\Users\Santi\source\repos\MTGSystem\MTGSystemTests\MTGSetTest.cs
 
  
