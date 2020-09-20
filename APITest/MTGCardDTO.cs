@@ -1,4 +1,4 @@
-﻿namespace MTGSystem.Dto
+﻿namespace APITest
 {
 
 
